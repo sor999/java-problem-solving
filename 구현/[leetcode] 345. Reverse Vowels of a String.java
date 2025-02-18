@@ -19,7 +19,6 @@ class Solution {
         }
         char [] reverse = sb.reverse().toString().toCharArray();
 
-
         int idx = 0;
         for(int i=0; i<str.length; i++){
             if(vowels.contains(str[i])){
@@ -29,7 +28,5 @@ class Solution {
         }
 
         return new String(str);
-
-
     }
 }
