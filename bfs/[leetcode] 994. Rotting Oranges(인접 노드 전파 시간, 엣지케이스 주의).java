@@ -48,7 +48,7 @@ class Solution {
                     int nx = cx + dx[i];
                     int ny = cy + dy[i];
 
-                    if(nx >= n || ny >= m || nx < 0 || ny < 0 || grid[nx][ny] == 2 || grid[nx][ny] == 0) continue;           grid[nx][ny] = 2;
+                    if(nx >= n || ny >= m || nx < 0 || ny < 0 || grid[nx][ny] == 2 || grid[nx][ny] == 0) continue;
                     fresh--;
                     q.offer(new int []{nx,ny});
                 }
